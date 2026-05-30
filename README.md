@@ -1,11 +1,23 @@
-# gazebo-smart-navigation-challenge
-Autonomous robot navigation in Gazebo where the bot reaches a goal while collecting bonus points, avoiding dynamic obstacles, and optimizing time.
+# gazebo_tutorial
 
-This project demonstrates an autonomous robot navigation system built using Gazebo simulation.
-The robot starts from an initial position and navigates towards a defined goal while:
+ROS 2 Gazebo Classic demo for a 5x5 arena:
 
-Collecting bonus points placed along the path
-Avoiding static and dynamic obstacles
-Optimizing movement to reach the goal within a time constraint
+- green start cell
+- red end cell
+- robot with differential drive and lidar
+- 5 fixed obstacles
+- 3 yellow bonus points that disappear when collected
+- controller that visits all bonuses first, then drives to the red end cell
 
-The system integrates perception, decision-making, and motion control to simulate a real-world robotics challenge environment.
+## Use
+
+Put this folder inside your ROS 2 workspace `src` folder, then run:
+
+```bash
+cd ~/ros2_ws
+colcon build --packages-select gazebo_tutorial
+source install/setup.bash
+ros2 launch gazebo_tutorial gazebo_tutorials.launch.py
+```
+
+If your workspace is on Windows through WSL, use the same commands inside Ubuntu.
