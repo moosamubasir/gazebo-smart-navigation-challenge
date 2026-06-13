@@ -1,9 +1,11 @@
+>PATH PLANNING ROBOT 
 > **Intelligent Grid Navigation with Vision & avoiding protocol**
 > 
 
 ---
 
-> 📸 **[PICTURE — Arena setup here]**
+> <img width="960" height="1280" alt="WhatsApp Image 2026-06-12 at 4 12 13 PM (1)" src="https://github.com/user-attachments/assets/ffa05871-3f96-4f82-9d4d-cd442565b707" />
+
 > 
 
 ---
@@ -168,7 +170,8 @@ Commands are sent as **2-byte binary packets**: `[CMD_BYTE, SPEED_BYTE]` at **11
 | Blue Bonus Sheets | 5 points each |
 | Camera Position | Overhead laptop webcam (bird's-eye view) |
 
-> 📸 **[PICTURE — Arena layout photo]**
+> <img width="960" height="1280" alt="WhatsApp Image 2026-06-12 at 4 12 43 PM" src="https://github.com/user-attachments/assets/09dc3f65-3d77-405a-aeea-a475bdfb8183" />
+
 > 
 
 ---
@@ -197,7 +200,11 @@ source install/setup.bash
 ros2 launch gazebo_tutorial gazebo_tutorials.launch.py
 ```
 
-> 📸 **[PICTURE / VIDEO — Gazebo simulation running]**
+> 
+
+https://github.com/user-attachments/assets/1fa2768a-dec6-45f6-b16f-0b75824ba2be
+
+
 > 
 
 ---
@@ -292,7 +299,11 @@ The dashboard (`web_dashboard.py`) provides:
 | 📋 Event Log | Real-time system messages |
 | 🔴🔵 Cell Detection | Red/Blue bonus cells and orange obstacle cells |
 
-> 📸 **[PICTURE — Web dashboard screenshot]**
+>
+
+https://github.com/user-attachments/assets/1e277d33-75d6-4053-9d17-321c37b51909
+
+
 > 
 
 ---
