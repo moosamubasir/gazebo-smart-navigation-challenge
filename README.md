@@ -1,5 +1,5 @@
->PATH PLANNING ROBOT 
-> **Intelligent Grid Navigation with Vision & avoiding protocol**
+PATH PLANNING ROBOT 
+ **Intelligent Grid Navigation with Vision & avoiding protocol**
 > 
 
 ---
