@@ -281,7 +281,7 @@ On the **Raspberry Pi** (to launch/start the robot):
 ros2 launch follow_grid gazebo_tutorials.launch.py
 ```
 
-> 📸 **[PICTURE / VIDEO — Real robot running in arena]**
+> Real robot running in arena
 > 
 https://github.com/user-attachments/assets/1e277d33-75d6-4053-9d17-321c37b51909
 
